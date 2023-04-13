@@ -1,3 +1,4 @@
+# Creates Snapshot of disk
 resource "azurerm_snapshot" "example" {
   name                = var.name
   location            = var.location
@@ -8,3 +9,5 @@ resource "azurerm_snapshot" "example" {
   disk_size_gb        = var.disk_size_gb
 
 }
+
+# UPDATE TAG :v1.0.1
