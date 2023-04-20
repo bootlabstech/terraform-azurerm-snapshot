@@ -17,6 +17,7 @@ variable "resource_group_name" {
 variable "create_option" {
   description = "value"
   type        = string
+  default = "Copy"
 
 }
 variable "source_uri" {
@@ -24,11 +25,11 @@ variable "source_uri" {
   type        = string
 
 }
-variable "source_resource_id" {
-  description = "value"
-  type        = string
+# variable "source_resource_id" {
+#   description = "value"
+#   type        = string
 
-}
+# }
 variable "disk_size_gb" {
   description = "value"
   type        = string
