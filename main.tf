@@ -1,5 +1,5 @@
 # Creates Snapshot of disk
-resource "azurerm_snapshot" "example" {
+resource "azurerm_snapshot" "snapshot" {
   name                = var.name
   location            = var.location
   resource_group_name = var.resource_group_name
